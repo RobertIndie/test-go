@@ -1,5 +1,7 @@
 package test_go
 
-func Hello() string {
-	return "world"
+import "fmt"
+
+func Hello(name string) string {
+	return fmt.Sprintf("Hello, %s", name)
 }
