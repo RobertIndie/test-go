@@ -2,6 +2,6 @@ package client
 
 import "fmt"
 
-func Hello2(name string) string {
-	return fmt.Sprintf("Hello, %s", name)
+func Hello(name string, id int) string {
+	return fmt.Sprintf("Hello, %s [%d]", name, id)
 }
